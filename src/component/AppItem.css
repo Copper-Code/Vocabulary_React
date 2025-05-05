@@ -1,0 +1,34 @@
+
+
+   .app-card{
+   
+     box-sizing: border-box;
+     background-color: white;
+     box-shadow:0 4px 8px 0 rgba(0,0,0,0.2);
+     transition: 0.3s;
+     border-radius: 30px;
+     margin: 0px;
+   
+     padding: 10px;
+     height: 460px;
+     width: 300px;
+     /*max-height: 400px;*/
+    /* max-width: 250px;
+    /* max-height: 100%;
+     max-width: 100%;*/
+     align-items: center;
+     justify-items: center;
+   
+     
+   }
+   
+   .app-card img{
+   
+     box-sizing: border-box;
+     height: 250px;
+     width: 250px;
+     overflow: hidden; /* ครอบภาพให้พอดีกับคอนเทนเนอร์ */
+     object-fit: cover;
+     display: block; 
+     margin-top: 10px;
+   }
